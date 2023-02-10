@@ -1,0 +1,46 @@
+body{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+img{
+    display: block;
+    max-width: 60%;
+    margin: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    list-style-type: none;
+    margin: 1em;
+}
+
+section{
+    display: flex;
+    margin: auto;
+    margin-bottom: 32px;
+}
+#banner{
+    min-width: 100%;
+}
+article{
+    flex: 1;
+    text-align: center;
+}
+p{
+    margin: 5%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    margin: 0;
+
+}
+/* About page*/
+.about{
+    text-align: center;
+}
